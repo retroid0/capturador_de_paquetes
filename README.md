@@ -73,4 +73,7 @@ Npcap: Necesario para la captura de paquetes.
 Es posible que necesites permisos de administrador para que la aplicación pueda capturar tráfico de red.
 Si encuentras problemas al capturar paquetes, verifica que Npcap esté instalado correctamente y que el adaptador de red seleccionado esté activo y en uso.
 
+![Imagen ejemplo](https://github.com/retroid0/capturador_de_paquetes/blob/main/capturador.png)
+
+
 Licencia de Retroid. No esta disponible la venta o modificación de esta aplicación. 2024
