@@ -1,3 +1,83 @@
+# packet_capture
+Packet capturer from the IP of your choice
+Instructions for Installing and Using the Packet Capture Program
+1. Download and Install
+Download the Application:
+
+Go to the Releases section in this GitHub repository.
+Download the .zip file containing the most recent version of the program.
+Extract the Files:
+
+Unzip the .zip file into a folder of your choice.
+
+Install Npcap:
+
+The application requires Npcap to capture network packets.
+If you do not have it installed, you can download it from Npcap.
+Npcap Link https://npcap.com/#download
+
+During installation, make sure to select the "Install Npcap in WinPcap API-compatible Mode" option.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Running the Application:
+
+Navigate to the folder where you unzipped the files and run the MyApplication.exe file.
+It is recommended to run the application with administrator privileges (right click > "Run as administrator") to ensure that it can capture network traffic properly.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Using the Program
+
+Selecting the Network Adapter
+When you open the application, you will see a drop-down menu that displays the network adapters available on your system.
+Select the network adapter you wish to monitor (for example, Wi-Fi or Ethernet).
+
+Setting the IP to Scan
+In the text field labeled "IP to scan," enter the IP address you wish to monitor.
+This IP can be local (within your network) or external (on the Internet).
+
+Starting the Scan
+Click the "Scan" button to begin capturing network packets.
+The application will display the captured traffic in a table, which includes details such as source IP, destination IP, ports, and protocol.
+
+Stopping the Scan
+When you want to stop the capture, click the "Stop" button.
+The capture will stop, but the captured data will remain visible in the table.
+
+Clearing the Captured Data
+If you want to clear the results table, click the "Clear" button.
+This will remove all the data captured so far.
+
+Saving the Captured Data
+To save the captured data to a text file:
+Select "Save Information" from the action drop-down menu.
+Click the "Run" button.
+A dialog box will appear, allowing you to choose the location and name of the text file.
+The file will save all the captured packets with the details visible in the table.
+
+Exiting the Program
+To close the application, select "Exit" from the action drop-down menu.
+Then click the "Run" button and the application will close.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. System Requirements
+Operating System: Windows 7 or higher.
+.NET Framework: .NET Framework 4.7.2 or higher.
+Npcap: Required for packet capture.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. Additional Notes
+You may need administrator permissions for the application to capture network traffic.
+If you encounter problems when capturing packets, verify that Npcap is installed correctly and that the selected network adapter is active and in use.
+
+![Sample image](https://github.com/retroid0/packet_capturer/blob/main/capturer.png)
+
+Retroid License. This application is not available for sale or modification. 2024
+
+ESPAÑOL:
 # capturador_de_paquetes
 Capturador de paquetes de la IP que elija
 Instrucciones para la Instalación y Uso del Programa de Captura de Paquetes
