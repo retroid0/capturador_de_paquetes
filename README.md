@@ -73,7 +73,7 @@ Npcap: Required for packet capture.
 You may need administrator permissions for the application to capture network traffic.
 If you encounter problems when capturing packets, verify that Npcap is installed correctly and that the selected network adapter is active and in use.
 
-![Sample image](https://github.com/retroid0/packet_capturer/blob/main/capturer.png)
+![Sample image](https://github.com/retroid0/capturador_de_paquetes/blob/main/capturador.png)
 
 Retroid License. This application is not available for sale or modification. 2024
 
